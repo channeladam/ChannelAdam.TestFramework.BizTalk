@@ -1,4 +1,4 @@
-SET msbuild="C:\Program Files (x86)\MSBuild\14.0\Bin\msbuild.exe"
+SET msbuild="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\msbuild.exe"
 
 %msbuild% ..\src\ChannelAdam.TestFramework.BizTalk\ChannelAdam.TestFramework.BizTalk.csproj /t:Rebuild /p:Configuration=Release;TargetFrameworkVersion=v4.0;OutDir=bin\Release\net40
 
